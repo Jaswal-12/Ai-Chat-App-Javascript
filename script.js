@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 🔹 API call
   async function getAIResponse(text) {
     const res = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyC4iGE0crY7mnTBxJgvcyx7y-awU-tJ2Yo",
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=",
       {
         method: "POST",
         headers: {
